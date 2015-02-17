@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+{% contentfor header %}
+  <meta property="fb:app_id" content="987090607986317" />
+  <meta property="og:type"   content="article" />
+  <meta property="og:url"    content="{{ page.url }}" />
+  <meta property="og:title"  content="{{ page.title }}" />
+  <meta property="og:image"  content="{{ page.image }}" />
+{% endcontentfor %}
 <article class="post">
 
 	{% if page.external-url %}

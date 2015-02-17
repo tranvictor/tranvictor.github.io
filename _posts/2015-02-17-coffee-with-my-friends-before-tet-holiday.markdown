@@ -3,6 +3,7 @@ layout: post
 title: "Hanging out with my friends before Tet holiday"
 date: 2015-02-17
 categories: off-work
+image: "/images/2015-02-17-coffee.jpg"
 ---
 
 I'm in series of 9 days off work due to Lunar New Year holiday. It was so good and happy hanging out with my friends. We talked about every one's job and discussed about Vietnam personal tax in case of transfering money from US to Vietnam. It's good to know that we can accept unlimited amount of dollars income from the US.
