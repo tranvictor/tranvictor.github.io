@@ -6,4 +6,6 @@ permalink: /:year/:month/:day/:title/
 paginate: 10
 highlighter: pygments
 
+markdown: redcarpet
+
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
