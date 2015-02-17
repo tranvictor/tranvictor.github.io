@@ -1,0 +1,9 @@
+name: Victor Tran
+url: tranvictor.github.io
+description: My personal blog with my passion in programming.
+
+permalink: /:year/:month/:day/:title/
+paginate: 10
+highlighter: pygments
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
