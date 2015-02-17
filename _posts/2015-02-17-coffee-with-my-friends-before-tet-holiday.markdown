@@ -17,7 +17,7 @@ From left to right:
   <li> Thiem: <em>My co-worker</em> </li>
   <li> Me</li>
   <li> Lan Anh: <em>Accounting student</em> </li>
-  <li> Trang: <em>Soon to be Auditor</em> </li>
+  <li> Trang: <em>little sister</em> </li>
   <li> Quang: <em>Auditor</em> </li>
   <li> Viet: <em>Market Researcher</em> </li>
 </ul>
