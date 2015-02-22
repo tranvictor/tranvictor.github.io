@@ -181,6 +181,15 @@ article img {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
+        padding: 20px;
+}
+
+title {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 11px;
+  font-style: italic;
 }
 
 article .meta {

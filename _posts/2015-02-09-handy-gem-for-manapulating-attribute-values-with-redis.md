@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "lion-attr, handy gem for manapulating Mongoid document object attributes' value with Redis"
-data: 2015-02-09
-image: "/images/myself.png"
+date: 2015-02-09
+tags: rails redis
+image: "/images/lion_attr.svg"
 ---
 
 In ClickLion, we use Redis heavily to track all kind of stats in real-time such as pageview of an article, number of requests handled for a particular session, number of action users have made during the session and a lot more metrics.
@@ -85,6 +86,9 @@ end
 # fetch the object using custom key
 Article.fetch('http://uniqueurl.com')
 ```
+
+![LionAttr connections](/images/lion_attr.svg)
+<title>LionAttr connections figure</title>
 
 ## Increment
 LionAttr focuses on improving the wellknown problem increament operator in
