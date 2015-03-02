@@ -3,6 +3,7 @@ layout: post
 title: "Weird thing about Rails date api"
 date: 2015-03-02
 tags: rails
+image: "/images/date_api.png"
 ---
 
 Rails has excellent support for timezone which brings developers conveniences working with time. Two of the most well-known API for `date` is `Date.tomorrow` and `Date.yesterday`.
