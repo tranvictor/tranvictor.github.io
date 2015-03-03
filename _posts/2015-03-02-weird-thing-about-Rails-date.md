@@ -6,7 +6,7 @@ tags: rails
 image: "/images/date_api.png"
 ---
 
-Rails has excellent support for timezone which brings developers conveniences working with time. Two of the most well-known API for `date` is `Date.tomorrow` and `Date.yesterday`.
+Rails has excellent support for timezone which brings developers conveniences working with time. Two of the most well-known API for `date` are `Date.tomorrow` and `Date.yesterday`.
 
 About a month ago, I got into a problem that I had to use those APIs to determine a particular time point belongs to yesterday, today, or tomorrow. At that time, I thought about 3 APIs `Date.yesterday`, `Date.today` and `Date.tomorrow` with no doubt. They must have worked correctly as they sound. However, they actually dont!
 
