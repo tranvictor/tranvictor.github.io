@@ -151,6 +151,7 @@ div.cl-wr  style="width: 640px; margin: 20px auto"
     silent! %s/\("\w*"\|data-\w\+\),/\1 /g
     silent! %s/\(".\{-}"\|data-\w\+\),/\1 /g
     silent! %s/(\(.\{-}=".\{-}"\(\s\+.\{-}=*\(".\{-}"\)*\)*\))/ \1/g
+    silent! normal gg
   endfunction
 
   command! JadeToSlim call JadeToSlimFunction()
