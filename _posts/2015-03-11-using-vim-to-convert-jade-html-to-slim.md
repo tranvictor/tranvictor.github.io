@@ -2,7 +2,7 @@
 layout: post
 title: "Using Vim to convert Jade html to Slim"
 date: 2015-03-11
-image: /images/jade_to_slim_vim_script.tiff
+image: /images/jade_to_slim_vim_script.png
 tags: vim rails
 ---
 
@@ -147,14 +147,14 @@ div.cl-wr  style="width: 640px; margin: 20px auto"
   The file would look like this:
 
   ```
-  function! JadeToSlimFunction()
-    silent! %s/\("\w*"\|data-\w\+\),/\1 /g
-    silent! %s/\(".\{-}"\|data-\w\+\),/\1 /g
-    silent! %s/(\(.\{-}=".\{-}"\(\s\+.\{-}=*\(".\{-}"\)*\)*\))/ \1/g
-    silent! normal gg
-  endfunction
+    function! JadeToSlimFunction()
+      silent! :%s/\((.\+)\)\(\.[^ ]*\)/\2 \1/g
+      silent! %s/\(".\{-}"\|data-\w\+\),/\1 /g
+      silent! %s/(\(.\{-}=".\{-}"\(\s\+.\{-}=*\(".\{-}"\)*\)*\))/ \1/g
+      silent! normal gg
+    endfunction
 
-  command! JadeToSlim call JadeToSlimFunction()
+    command! JadeToSlim call JadeToSlimFunction()
   ```
 
   You can use this script on a Jade file to turn it to Slim with just:
