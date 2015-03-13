@@ -219,10 +219,10 @@ I ran this improved version with a bigger file, 5 GB, it took about 119.2s. The 
 
 Spark helps to solve this kind of problem seriously faster with parallelize the process. However we have to be awared of variable shipping to make it work efficiently, otherwise it will still be slow.
 
-  1. Regular need 58s to analyze 50 MB log file.
-  2. Bad Spark version need 33s to analyze 50 MB log file.
-  3. Good Spark version need 2.26s to analyze 50 MB log file.
-  4. Bad Spark version need an hour to analyze 5 GB log file.
-  5. Good Spark version need 119.2s to analyze 5 GB log file.
+  1. Regular program needs 58s to analyze 50 MB log file.
+  2. Bad Spark version needs 33s to analyze 50 MB log file.
+  3. Good Spark version needs 2.26s to analyze 50 MB log file.
+  4. Bad Spark version needs an hour to analyze 5 GB log file.
+  5. Good Spark version needs 119.2s to analyze 5 GB log file.
 
 *PLEASE FEEL FREE TO LEAVE A COMMENT.*
