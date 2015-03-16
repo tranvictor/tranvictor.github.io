@@ -10,7 +10,7 @@ I have big passion on programming and programming languages expecially Ruby. I'm
 
 I often try and do experiments on different programming languages considering studying new programming languages are my personal challenges.
 
-I was lead programmer at <a href="truongnha.com">TruongNha</a>, co-founder of Softemy (a freelancer group in Vietnam). I'm currently CTO at ClickLion - a startup company.
+I was lead programmer at <a href="http://truongnha.com/">TruongNha</a>, co-founder of Softemy (a freelancer group in Vietnam). I'm currently CTO at ClickLion - a startup company.
 
 I read books, blogs, articles and play games (Dota) in my spare time.
 
