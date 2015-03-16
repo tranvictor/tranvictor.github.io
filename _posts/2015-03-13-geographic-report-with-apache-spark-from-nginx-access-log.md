@@ -22,7 +22,7 @@ Environment specifications:
 
 ## How do we do this experiment
 
-Because Apache Spark supports API in Java, Scala and Python so I choosed Python due to its readability.
+Because Apache Spark supports API in Java, Scala and Python so I chose Python due to its readability.
 
   1. Write a Python program to see how long does it take to generate the report
   2. Using Apache Spark on that program to see many time faster it is in compare to the first one.

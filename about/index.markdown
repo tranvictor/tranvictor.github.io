@@ -5,7 +5,7 @@ title: About
 
 <h3>Victor, (real name Vu Tran Huy) an enthusiastic Ruby programmer.</h3>
 
-<img src="/images/myself.png" class="right" style="width: 150px;" />
+<img src="/images/myself.jpg" class="right" style="width: 150px;" />
 I have big passion on programming and programming languages expecially Ruby. I'm working full-time with Ruby and contribute to Ruby open source projects.
 
 I often try and do experiments on different programming languages considering studying new programming languages are my personal challenges.
